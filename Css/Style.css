@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+/*BODY*/
+body { width: 100%; height: 100%; } 
+body
+
+
+{
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    list-style-type: none
+    position:none;
+    justify-content: none;
+    
+    
+   
+  }
+
+
+
+
+/*Header background*/
+
+.Header
+
+{  
+    background-image: url("IMG/Header.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:600px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;    
+    
+}
+
+/*links*/
+
+
+
+
+
+
+
+.navbar
+
+{
+    width: 100%
+    height:65px;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.navbar li a
+
+{
+    text-decoration: none;
+
+    
+}
+
+
+
+.logo a
+
+{
+   
+    font-family: 'Allura', cursive;
+    font-size: 3em;
+    color: blue;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+
+.navbar ul
+    
+    {
+        display: flex;
+    }
+
+.navbar ul li
+
+{
+    text-transform: uppercase;
+    margin: 0 10px;
+    list-style-type: none;
+    display: flex;
+    font-size: 1.2em;
+}
+
+.navbar ul li a
+
+{
+    color: #fff;
+}
+
+
+
+
+
+.navbar ul li a:hover
+
+{
+    color: blue;
+}
+
+
+
+.slogan
+{
+        font-size: 2em;
+        padding: 0;
+       	margin:0;
+        text-align:center;
+	font-family: 'Bubblegum Sans', cursive;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        list-style-type: none;
+        
+       
+        
+    
+    
+    
+  
+}
+
+
+
+
+
+
+/*ICONS*/
+
+
+.ICONS
+
+{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+   background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:600px;
+    justify-content: center;
+    position: relative;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: space-around;   
+    background-color:#edf4f5;
+    
+    
+    
+     
+        
+
+}
+
+.ICONS a:hover
+
+{
+    color:black;
+}
+
+
+.ICONS h1   
+
+{
+    font-size: 5em;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: top-center;
+    display:flex;
+    margin-left:50%;
+    margin-right:50%;
+   margin-top:30px;
+   
+    
+}
+
+
+.Code-pictures
+
+
+{
+    position: relative;
+    align-items: center;
+    position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        list-style-type: none;
+        color: #606266;
+    font-size: 30px;
+        margin-top:5px;
+    font-weight:bold;   
+}
+
+
+
+
+.ICONS a
+
+{
+    color: #95989e;
+}
+
+
+
+/*Pictures*/
+
+
+
+
+.Pictures
+
+{
+    background-color:grey;
+}
+
+
+#doc
+{
+    text-align: center;
+    font-size: 2em;
+    color:#474747       ;
+}
+
+
+
+.Pictures h1
+
+
+{
+    text-align: center;
+    font-size:4em;
+    color:black;
+    
+}
+
+#docc
+{
+    font-size: 2em;
+    text-align: Center;
+    margin-top: 20px;
+}
+                   
+
+
+
+.column {
+  
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+ 
+  
+  
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  
+  display: inline-block;
+  
+}
+
+.row
+
+{
+    text-align: center;
+}
+
+
+.About
+{
+	background-color:#dcf7ee;
+    height:600px;
+    position: absolute;
+    width:100%;
+    
+   
+}
+
+
+.About h1{
+    text-align: center;
+    font-size: 3em;
+   
+    
+
+ }
+
+ .About p
+
+ {
+ text-align:center;
+ font-size:2em;
+ }
